@@ -1009,7 +1009,7 @@ Answer =
 <span class="n">cuisines</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1057,7 +1057,7 @@ Answer =
 <span class="n">create_cuisines_profiles</span> <span class="o">=</span> <span class="n">cuisines</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">print_top_ingredients</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1105,7 +1105,7 @@ Answer =
 <span class="kn">import</span> <span class="nn">itertools</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1118,7 +1118,7 @@ Answer =
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">recipes</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1155,7 +1155,7 @@ Answer =
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Decision tree model saved to bamboo_tree!&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1189,7 +1189,7 @@ Answer =
 <span class="n">graphviz</span><span class="o">.</span><span class="n">Source</span><span class="p">(</span><span class="n">bamboo_tree_graph</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1253,7 +1253,7 @@ Answer =
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bamboo</span> <span class="o">=</span> <span class="n">recipes</span><span class="p">[</span><span class="n">recipes</span><span class="o">.</span><span class="n">cuisine</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="s2">&quot;korean&quot;</span><span class="p">,</span> <span class="s2">&quot;japanese&quot;</span><span class="p">,</span> <span class="s2">&quot;chinese&quot;</span><span class="p">,</span> <span class="s2">&quot;thai&quot;</span><span class="p">,</span> <span class="s2">&quot;indian&quot;</span><span class="p">])]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1274,7 +1274,7 @@ Answer =
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bamboo</span><span class="p">[</span><span class="s2">&quot;cuisine&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1296,7 +1296,7 @@ Answer =
 <span class="n">sample_n</span> <span class="o">=</span> <span class="mi">30</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1322,7 +1322,7 @@ Answer =
 <span class="n">bamboo_test_cuisines</span> <span class="o">=</span> <span class="n">bamboo_test</span><span class="p">[</span><span class="s2">&quot;cuisine&quot;</span><span class="p">]</span> <span class="c1"># corresponding cuisines or labels</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1344,7 +1344,7 @@ Answer =
 <span class="n">bamboo_test</span><span class="p">[</span><span class="s2">&quot;cuisine&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1369,7 +1369,7 @@ Answer =
 <span class="n">bamboo_train_cuisines</span> <span class="o">=</span> <span class="n">bamboo_train</span><span class="p">[</span><span class="s2">&quot;cuisine&quot;</span><span class="p">]</span> <span class="c1"># corresponding cuisines or labels</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1390,7 +1390,7 @@ Answer =
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bamboo_train</span><span class="p">[</span><span class="s2">&quot;cuisine&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1432,7 +1432,7 @@ Answer =
 <span class="n">graphviz</span><span class="o">.</span><span class="n">Source</span><span class="p">(</span><span class="n">bamboo_train_tree_graph</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1504,7 +1504,7 @@ Answer =
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
