@@ -456,7 +456,7 @@ Answer = Yes,<br>
 <span class="o">!</span>python -V
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -481,7 +481,7 @@ Answer = Yes,<br>
 <span class="kn">import</span> <span class="nn">random</span> 
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -504,7 +504,7 @@ Answer = Yes,<br>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Data read into dataframe!&quot;</span><span class="p">)</span> <span class="c1"># takes about 30 seconds</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -525,7 +525,7 @@ Answer = Yes,<br>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">recipes</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -546,7 +546,7 @@ Answer = Yes,<br>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">recipes</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -600,7 +600,7 @@ Answer = Yes,<br>
 <span class="nb">print</span><span class="p">([</span><span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="k">for</span> <span class="n">ingredient</span> <span class="ow">in</span> <span class="n">ingredients</span> <span class="k">for</span> <span class="n">match</span> <span class="ow">in</span> <span class="p">[(</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;.*(soy).*&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">ingredient</span><span class="p">)]</span> <span class="k">if</span> <span class="n">match</span><span class="p">])</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -651,7 +651,7 @@ Answer = Yes,<br>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">recipes</span><span class="p">[</span><span class="s2">&quot;country&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span> <span class="c1"># frequency table</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -697,7 +697,7 @@ Answer = Yes,<br>
 <span class="n">recipes</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -718,7 +718,7 @@ Answer = Yes,<br>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">recipes</span><span class="p">[</span><span class="s2">&quot;cuisine&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">recipes</span><span class="p">[</span><span class="s2">&quot;cuisine&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -768,7 +768,7 @@ Answer = Yes,<br>
 <span class="n">recipes</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -785,7 +785,7 @@ Answer = Yes,<br>
 <span class="n">cuisines_to_keep</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">recipes_counts</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">values</span><span class="p">)[</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">cuisines_indices</span><span class="p">)])</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -806,7 +806,7 @@ Answer = Yes,<br>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> rows removed!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">rows_before</span> <span class="o">-</span> <span class="n">rows_after</span><span class="p">))</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -828,7 +828,7 @@ Answer = Yes,<br>
 <span class="n">recipes</span> <span class="o">=</span> <span class="n">recipes</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="s2">&quot;No&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -856,7 +856,7 @@ Answer = Yes,<br>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">recipes</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -876,7 +876,7 @@ Answer = Yes,<br>
 <span class="n">check_recipes</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -914,7 +914,7 @@ Answer = NO,BECAUSE THIS ingredients ALSO USED IN ASIAN AND EAST_ASIAN COUNTRIES
 <span class="n">ing</span> <span class="o">=</span> <span class="n">recipes</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">:]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -934,7 +934,7 @@ Answer = NO,BECAUSE THIS ingredients ALSO USED IN ASIAN AND EAST_ASIAN COUNTRIES
 <span class="nb">print</span><span class="p">(</span><span class="n">ing_df</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -950,7 +950,7 @@ Answer = NO,BECAUSE THIS ingredients ALSO USED IN ASIAN AND EAST_ASIAN COUNTRIES
 <span class="nb">print</span><span class="p">(</span><span class="n">ing_df</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
