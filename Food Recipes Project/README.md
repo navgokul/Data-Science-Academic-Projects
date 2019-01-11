@@ -1,11 +1,3 @@
-
-<body>
-  <div tabindex="-1" id="notebook" class="border-box-sizing">
-    <div class="container" id="notebook-container">
-
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Food-Recipes-Project">Food Recipes Project<a class="anchor-link" href="#Food-Recipes-Project">&#182;</a></h1>
 </div>
 </div>
