@@ -5171,7 +5171,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Choropleth-Maps-">Choropleth Maps <a id="8" /><a class="anchor-link" href="#Choropleth-Maps-">&#182;</a></h1><p>A <code>Choropleth</code> map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as population density or per-capita income. The choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region. Below is a <code>Choropleth</code> map of the US depicting the population by square mile per state.</p>
+<h1 id="Choropleth-Maps-">Choropleth Maps <a id="8" /><a class="anchor-link" href="#5.5 Choropleth-Maps-">&#182;</a></h1><p>A <code>Choropleth</code> map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as population density or per-capita income. The choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region. Below is a <code>Choropleth</code> map of the US depicting the population by square mile per state.</p>
 <p><img src = "https://ibm.box.com/shared/static/2kzaknzdf6crt3n5rx6haskg3wiaklxl.png" width = 600></p>
 
 </div>
