@@ -67,7 +67,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-Dataset:-Immigration-to-Canada-from-1980-to-2013-">The Dataset: Immigration to Canada from 1980 to 2013 <a id="2" /><a class="anchor-link" href="#1.1 The-Dataset:-Immigration-to-Canada-from-1980-to-2013-">&#182;</a></h2>
+<h2 id="1.1 The-Dataset:-Immigration-to-Canada-from-1980-to-2013-">1.1 The Dataset: Immigration to Canada from 1980 to 2013 <a id="2" /><a class="anchor-link" href="#1.1 The-Dataset:-Immigration-to-Canada-from-1980-to-2013-">&#182;</a></h2>
 </div>
 </div>
 </div>
