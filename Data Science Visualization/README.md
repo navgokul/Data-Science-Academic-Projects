@@ -107,7 +107,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> <span class="c1"># primary data structure library</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -143,7 +143,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Data read into a pandas dataframe!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -165,7 +165,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="c1"># tip: You can specify the number of rows you&#39;d like to see as follows: df_can.head(10) </span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -186,7 +186,8 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
+   
 </div>
 </div>
 
@@ -207,7 +208,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -228,7 +229,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">values</span> 
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -249,7 +250,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">values</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -271,7 +272,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">df_can</span><span class="o">.</span><span class="n">index</span><span class="p">))</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -296,7 +297,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="nb">print</span> <span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">df_can</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">tolist</span><span class="p">()))</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -318,7 +319,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">df_can</span><span class="o">.</span><span class="n">shape</span>    
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -349,7 +350,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">df_can</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -371,7 +372,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">df_can</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -392,7 +393,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="p">[</span><span class="s1">&#39;Total&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_can</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -413,7 +414,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -434,7 +435,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -482,7 +483,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">Country</span>  <span class="c1"># returns a series</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -505,7 +506,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="c1"># for the sake of consistency, we will convert all column names to string later on.</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -541,7 +542,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="c1"># tip: The opposite of set is reset. So to reset the index, we can use df_can.reset_index()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -554,7 +555,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -568,7 +569,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">df_can</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="kc">None</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -598,7 +599,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="nb">print</span><span class="p">(</span><span class="n">df_can</span><span class="p">[</span><span class="n">df_can</span><span class="o">.</span><span class="n">index</span> <span class="o">==</span> <span class="s1">&#39;Japan&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">squeeze</span><span class="p">())</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -615,7 +616,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="nb">print</span><span class="p">(</span><span class="n">df_can</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">87</span><span class="p">,</span> <span class="mi">36</span><span class="p">])</span> <span class="c1"># year 2013 is the last column, with a positional index of 36</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -630,7 +631,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="nb">print</span><span class="p">(</span><span class="n">df_can</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">87</span><span class="p">,</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]])</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -653,7 +654,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="c1"># [print (type(x)) for x in df_can.columns.values] #&lt;-- uncomment to check type of column headers</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -676,7 +677,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">years</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -700,7 +701,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="nb">print</span> <span class="p">(</span><span class="n">condition</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -714,7 +715,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">df_can</span><span class="p">[</span><span class="n">condition</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -733,7 +734,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="c1"># don&#39;t forget to enclose the two conditions in parentheses</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -756,7 +757,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">df_can</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -808,7 +809,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -829,7 +830,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Matplotlib version: &#39;</span><span class="p">,</span> <span class="n">mpl</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span> <span class="c1"># &gt;= 2.0.0</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -851,7 +852,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <span class="n">mpl</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">([</span><span class="s1">&#39;ggplot&#39;</span><span class="p">])</span> <span class="c1"># optional: for ggplot-like style</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -913,7 +914,7 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <span class="n">haiti</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -934,7 +935,7 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">haiti</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -963,7 +964,6 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span> <span class="c1"># need this line to show the updates made to the figure</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -994,7 +994,7 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span> 
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1048,7 +1048,7 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <span class="n">df_CI</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1070,7 +1070,7 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <span class="n">df_CI</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;line&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1093,7 +1093,7 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <span class="n">df_CI</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1116,7 +1116,7 @@ Use line plot when you have a continuous data set. These are best suited for tre
 <span class="n">df_CI</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;line&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1196,7 +1196,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1255,7 +1255,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">df_continents</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1292,7 +1292,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1341,7 +1341,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1385,7 +1385,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1440,7 +1440,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">df_japan</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1466,7 +1466,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1493,7 +1493,7 @@ Name: Haiti, dtype: int64 <br></p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_japan</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1526,7 +1526,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">df_CI</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1549,7 +1549,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">df_CI</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1577,7 +1577,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -1612,7 +1612,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -1670,7 +1670,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -1716,7 +1716,6 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">df_top15</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1758,7 +1757,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">new_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -1781,7 +1780,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">new_df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1808,7 +1807,7 @@ Name: Haiti, dtype: int64 <br></p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1843,7 +1842,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">new_df</span><span class="p">[</span><span class="n">new_df</span><span class="p">[</span><span class="s1">&#39;2000s&#39;</span><span class="p">]</span><span class="o">&gt;</span> <span class="mf">209611.5</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1896,7 +1895,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_tot</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -1923,7 +1922,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -1962,7 +1961,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">fit</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1997,7 +1996,7 @@ Outlier &gt; 209,611.5</p>
 <span class="s1">&#39;No. Immigrants = </span><span class="si">{0:.0f}</span><span class="s1"> * Year + </span><span class="si">{1:.0f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">fit</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fit</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> 
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2065,7 +2064,6 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_total</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2097,7 +2095,6 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2141,7 +2138,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_can_t</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -2169,7 +2166,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">norm_argentina</span> <span class="o">=</span> <span class="p">(</span><span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;Argentina&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;Argentina&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">())</span> <span class="o">/</span> <span class="p">(</span><span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;Argentina&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">-</span> <span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;Argentina&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">())</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2221,7 +2218,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">ax0</span><span class="o">.</span><span class="n">legend</span><span class="p">([</span><span class="s1">&#39;Brazil&#39;</span><span class="p">,</span> <span class="s1">&#39;Argentina&#39;</span><span class="p">],</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper left&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="s1">&#39;x-large&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -2266,7 +2263,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">norm_india</span> <span class="o">=</span> <span class="p">(</span><span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;India&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;India&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">())</span> <span class="o">/</span> <span class="p">(</span><span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;India&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">-</span> <span class="n">df_can_t</span><span class="p">[</span><span class="s1">&#39;India&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">())</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2312,7 +2309,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">ax0</span><span class="o">.</span><span class="n">legend</span><span class="p">([</span><span class="s1">&#39;China&#39;</span><span class="p">,</span> <span class="s1">&#39;India&#39;</span><span class="p">],</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper left&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="s1">&#39;x-large&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2325,7 +2322,7 @@ Outlier &gt; 209,611.5</p>
 <div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2361,7 +2358,6 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_top5</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2392,7 +2388,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -2423,7 +2419,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2468,7 +2464,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Years&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -2505,7 +2501,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -2541,7 +2537,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Years&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -2579,7 +2575,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_can</span><span class="p">[</span><span class="s1">&#39;2013&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2596,7 +2592,7 @@ Outlier &gt; 209,611.5</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">bin_edges</span><span class="p">)</span> <span class="c1"># bin ranges, default = 10 bins</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2637,7 +2633,6 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2668,7 +2663,6 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2700,7 +2694,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_can</span><span class="o">.</span><span class="n">loc</span><span class="p">[[</span><span class="s1">&#39;Denmark&#39;</span><span class="p">,</span> <span class="s1">&#39;Norway&#39;</span><span class="p">,</span> <span class="s1">&#39;Sweden&#39;</span><span class="p">],</span> <span class="n">years</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2714,7 +2708,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_can</span><span class="o">.</span><span class="n">loc</span><span class="p">[[</span><span class="s1">&#39;Denmark&#39;</span><span class="p">,</span> <span class="s1">&#39;Norway&#39;</span><span class="p">,</span> <span class="s1">&#39;Sweden&#39;</span><span class="p">],</span> <span class="n">years</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -2740,7 +2734,7 @@ Outlier &gt; 209,611.5</p>
 <span class="n">df_t</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2760,7 +2754,6 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2803,7 +2796,6 @@ Outlier &gt; 209,611.5</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2855,7 +2847,6 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2900,7 +2891,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2940,7 +2931,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">df_iceland</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -2960,7 +2951,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3011,7 +3002,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3059,7 +3050,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3097,7 +3088,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">df_top15</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -3137,7 +3128,6 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3170,7 +3160,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">df_dsn</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3205,7 +3195,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
     <span class="nb">print</span> <span class="p">(</span><span class="n">df_dsn</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">proportion</span><span class="p">))</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3231,7 +3221,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Total number of tiles is &#39;</span><span class="p">,</span> <span class="n">total_num_tiles</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -3257,7 +3247,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
     <span class="nb">print</span> <span class="p">(</span><span class="n">df_dsn</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">tiles</span><span class="p">))</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3306,7 +3296,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Waffle chart populated!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3327,7 +3317,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">waffle_chart</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3362,7 +3352,6 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3402,7 +3391,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">yticks</span><span class="p">([])</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3459,7 +3448,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
           <span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3576,7 +3565,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
     <span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3603,7 +3592,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">colormap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">coolwarm</span> <span class="c1"># color map class</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3624,7 +3613,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">create_waffle_chart</span><span class="p">(</span><span class="n">categories</span><span class="p">,</span> <span class="n">values</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">colormap</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3676,7 +3665,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Wordcloud is installed and imported!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3703,7 +3692,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;File downloaded and saved!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3724,7 +3713,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">stopwords</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">STOPWORDS</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3753,7 +3742,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">alice_wc</span><span class="o">.</span><span class="n">generate</span><span class="p">(</span><span class="n">alice_novel</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3777,7 +3766,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3805,7 +3794,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3838,7 +3827,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3865,7 +3854,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Image downloaded and saved!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3892,7 +3881,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3926,7 +3915,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3963,7 +3952,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3985,7 +3974,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">total_immigration</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4015,7 +4004,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">word_string</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4039,7 +4028,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Word cloud created!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4059,7 +4048,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4111,7 +4100,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Seaborn installed and imported!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4145,7 +4134,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">df_tot</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4167,7 +4156,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;total&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df_tot</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4189,7 +4178,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;total&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df_tot</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4211,7 +4200,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;total&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df_tot</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4233,7 +4222,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;total&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df_tot</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4258,7 +4247,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Total Immigration to Canada from 1980 - 2013&#39;</span><span class="p">)</span> <span class="c1"># add title</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4285,7 +4274,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Total Immigration to Canada from 1980 - 2013&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -4321,7 +4310,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Total Immigration to Canada from 1980 - 2013&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4349,7 +4338,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Total Immigration to Canada from 1980 - 2013&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4397,7 +4386,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Total Immigrationn from Denmark, Sweden, and Norway to Canada from 1980 - 2013&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4410,7 +4399,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4483,7 +4472,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> <span class="c1"># primary data structure library</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4534,7 +4523,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Folium installed and imported!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4559,7 +4548,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4595,7 +4584,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4620,7 +4609,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4657,7 +4646,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">mexico_map</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4698,7 +4687,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4739,7 +4728,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4780,7 +4769,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -4817,7 +4806,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">mexico_map</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4855,7 +4844,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Dataset downloaded and read into a pandas dataframe!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4876,7 +4865,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_incidents</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4921,7 +4910,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_incidents</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4944,7 +4933,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">df_incidents</span> <span class="o">=</span> <span class="n">df_incidents</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">limit</span><span class="p">,</span> <span class="p">:]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4965,7 +4954,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_incidents</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4988,7 +4977,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">longitude</span> <span class="o">=</span> <span class="o">-</span><span class="mf">122.42</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -5005,7 +4994,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">sanfran_map</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -5043,7 +5032,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">sanfran_map</span><span class="o">.</span><span class="n">add_child</span><span class="p">(</span><span class="n">incidents</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5089,7 +5078,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">sanfran_map</span><span class="o">.</span><span class="n">add_child</span><span class="p">(</span><span class="n">incidents</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5127,7 +5116,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">sanfran_map</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5166,7 +5155,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">sanfran_map</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5220,7 +5209,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Data downloaded and read into a dataframe!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -5241,7 +5230,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5263,7 +5252,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="n">df_can</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5298,7 +5287,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;data dimensions:&#39;</span><span class="p">,</span> <span class="n">df_can</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5319,7 +5308,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_can</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5343,7 +5332,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GeoJSON file downloaded!&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -5382,7 +5371,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5434,7 +5423,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <span class="n">world_map</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
