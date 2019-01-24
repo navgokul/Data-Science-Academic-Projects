@@ -43,7 +43,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
     3.1 Word Clouds <br>
 4. Visualizing Data using Seaborn<br>
 4.1 Regression Plots <br> 
-5. Visualizing Data using folium <br>
+5. Generating Maps with Python <br>
     5.1 Exploring Datasets with *p*andas <br>
     5.2 Downloading and Prepping Data <br>
     5.3 Introduction to Folium <br>
@@ -56,7 +56,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exploring-Datasets-with-pandas-">Exploring Datasets with <em>pandas</em> <a id="0" /><a class="anchor-link" href="#Exploring-Datasets-with-pandas-">&#182;</a></h1><p><em>pandas</em> is an essential data analysis toolkit for Python. From their <a href="http://pandas.pydata.org/">website</a>:</p>
+<h1 id="1. Exploring-Datasets-with-pandas-">1. Exploring Datasets with <em>pandas</em> <a id="0" /><a class="anchor-link" href="#1. Exploring-Datasets-with-pandas-">&#182;</a></h1><p><em>pandas</em> is an essential data analysis toolkit for Python. From their <a href="http://pandas.pydata.org/">website</a>:</p>
 <blockquote><p><em>pandas</em> is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, <strong>real world</strong> data analysis in Python.</p>
 </blockquote>
 <p>The course heavily relies on <em>pandas</em> for data wrangling, analysis, and visualization. We encourage you to spend some time and  familizare yourself with the <em>pandas</em> API Reference: <a href="http://pandas.pydata.org/pandas-docs/stable/api.html">http://pandas.pydata.org/pandas-docs/stable/api.html</a>.</p>
@@ -86,7 +86,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="pandas-Basics"><em>pandas</em> Basics<a id="4" /><a class="anchor-link" href="#pandas-Basics">&#182;</a></h2>
+<h2 id="1.2 pandas-Basics"><em>pandas</em> Basics<a id="4" /><a class="anchor-link" href="# 1.2 pandas-Basics">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -444,7 +444,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h2 id="pandas-Intermediate:-Indexing-and-Selection-(slicing)"><em>pandas</em> Intermediate: Indexing and Selection (slicing)<a id="6" /><a class="anchor-link" href="#pandas-Intermediate:-Indexing-and-Selection-(slicing)">&#182;</a></h2>
+<h2 id="1.3 Pandas-Intermediate:-Indexing-and-Selection-(slicing)"><em>1.3 Pandas</em> Intermediate: Indexing and Selection (slicing)<a id="6" /><a class="anchor-link" href="#1.3 Pandas-Intermediate:-Indexing-and-Selection-(slicing)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -766,14 +766,14 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h1 id="Visualizing-Data-using-Matplotlib">Visualizing Data using Matplotlib<a id="8" /><a class="anchor-link" href="#Visualizing-Data-using-Matplotlib">&#182;</a></h1>
+<h1 id="2. Visualizing-Data-using-Matplotlib">2. Visualizing Data using Matplotlib<a id="8" /><a class="anchor-link" href="#2. Visualizing-Data-using-Matplotlib">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Matplotlib:-Standard-Python-Visualization-Library">Matplotlib: Standard Python Visualization Library<a id="10" /><a class="anchor-link" href="#Matplotlib:-Standard-Python-Visualization-Library">&#182;</a></h2><p>The primary plotting library we will explore in the course is <a href="http://matplotlib.org/">Matplotlib</a>.  As mentioned on their website:</p>
+<h2 id="2.1 Matplotlib:-Standard-Python-Visualization-Library">2.1 Matplotlib: Standard Python Visualization Library<a id="10" /><a class="anchor-link" href="#2.1 Matplotlib:-Standard-Python-Visualization-Library">&#182;</a></h2><p>The primary plotting library we will explore in the course is <a href="http://matplotlib.org/">Matplotlib</a>.  As mentioned on their website:</p>
 <blockquote><p>Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shell, the jupyter notebook, web application servers, and four graphical user interface toolkits.</p>
 </blockquote>
 <p>If you are aspiring to create impactful visualization with python, Matplotlib is an essential tool to have at your disposal.</p>
@@ -873,7 +873,7 @@ Speaking of consistency, because there is no <em>best</em> data visualization li
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Line-Pots-(Series/Dataframe)-">Line Pots (Series/Dataframe) <a id="12" /><a class="anchor-link" href="#Line-Pots-(Series/Dataframe)-">&#182;</a></h1>
+<h1 id="2.2 Line-Pots-(Series/Dataframe)-">2.2 Line Pots (Series/Dataframe) <a id="12" /><a class="anchor-link" href="#2.2 Line-Pots-(Series/Dataframe)-">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -1204,7 +1204,7 @@ Name: Haiti, dtype: int64 <br></p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Pie-Charts-">Pie Charts <a id="6" /><a class="anchor-link" href="#Pie-Charts-">&#182;</a></h1><p>A <code>pie chart</code> is a circualr graphic that displays numeric proportions by dividing a circle (or pie) into proportional slices. You are most likely already familiar with pie charts as it is widely used in business and media. We can create pie charts in Matplotlib by passing in the <code>kind=pie</code> keyword.</p>
+<h1 id="2.3 Pie-Charts-">2.3 Pie Charts <a id="6" /><a class="anchor-link" href="#2.3 Pie-Charts-">&#182;</a></h1><p>A <code>2.3 pie chart</code> is a circualr graphic that displays numeric proportions by dividing a circle (or pie) into proportional slices. You are most likely already familiar with pie charts as it is widely used in business and media. We can create pie charts in Matplotlib by passing in the <code>kind=pie</code> keyword.</p>
 <p>Let's use a pie chart to explore the proportion (percentage) of new immigrants grouped by continents for the entire time period from 1980 to 2013.</p>
 
 </div>
@@ -1393,7 +1393,7 @@ Name: Haiti, dtype: int64 <br></p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Box-Plots-">Box Plots <a id="8" /><a class="anchor-link" href="#Box-Plots-">&#182;</a></h1><p>A <code>box plot</code> is a way of statistically representing the <em>distribution</em> of the data through five main dimensions:</p>
+<h1 id="2.4 Box-Plots-">2.4 Box Plots <a id="8" /><a class="anchor-link" href="#2.4 Box-Plots-">&#182;</a></h1><p>A <code>2.4 box plot</code> is a way of statistically representing the <em>distribution</em> of the data through five main dimensions:</p>
 <ul>
 <li><strong>Minimun:</strong> Smallest number in the dataset.</li>
 <li><strong>First quartile:</strong> Middle number between the <code>minimum</code> and the <code>median</code>.</li>
@@ -1859,7 +1859,7 @@ Outlier &gt; 209,611.5</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Scatter-Plots-">Scatter Plots <a id="10" /><a class="anchor-link" href="#Scatter-Plots-">&#182;</a></h1><p>A <code>scatter plot</code> (2D) is a useful method of comparing variables against each other. <code>Scatter</code> plots look similar to <code>line plots</code> in that they both map independent and dependent variables on a 2D graph. While the datapoints are connected together by a line in a line plot, they are not connected in a scatter plot. The data in a scatter plot is considered to express a trend. With further analysis using tools like regression, we can mathematically calculate this relationship and use it to predict trends outside the dataset.</p>
+<h1 id="2.5 Scatter-Plots-">2.5 Scatter Plots <a id="10" /><a class="anchor-link" href="#2.5 Scatter-Plots-">&#182;</a></h1><p>A <code>2.5 scatter plot</code> (2D) is a useful method of comparing variables against each other. <code>Scatter</code> plots look similar to <code>line plots</code> in that they both map independent and dependent variables on a 2D graph. While the datapoints are connected together by a line in a line plot, they are not connected in a scatter plot. The data in a scatter plot is considered to express a trend. With further analysis using tools like regression, we can mathematically calculate this relationship and use it to predict trends outside the dataset.</p>
 <p>Let's start by exploring the following:</p>
 <p>Using a <code>scatter plot</code>, let's visualize the trend of total immigrantion to Canada (all countries combined) for the years 1980 - 2013.</p>
 
@@ -2102,7 +2102,7 @@ Outlier &gt; 209,611.5</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Bubble-Plots-">Bubble Plots <a id="12" /><a class="anchor-link" href="#Bubble-Plots-">&#182;</a></h1><p>A <code>bubble plot</code> is a variation of the <code>scatter plot</code> that displays three dimensions of data (x, y, z). The datapoints are replaced with bubbles, and the size of the bubble is determined by the third variable 'z', also known as the weight. In <code>maplotlib</code>, we can pass in an array or scalar to the keyword <code>s</code> to <code>plot()</code>, that contains the weight of each point.</p>
+<h1 id="2.6 Bubble-Plots-">2.6 Bubble Plots <a id="12" /><a class="anchor-link" href="#2.6 Bubble-Plots-">&#182;</a></h1><p>A <code>2.6 bubble plot</code> is a variation of the <code>scatter plot</code> that displays three dimensions of data (x, y, z). The datapoints are replaced with bubbles, and the size of the bubble is determined by the third variable 'z', also known as the weight. In <code>maplotlib</code>, we can pass in an array or scalar to the keyword <code>s</code> to <code>plot()</code>, that contains the weight of each point.</p>
 <p><strong>Let's start by analyzing the effect of Argentina's great depression</strong>.</p>
 <p>Argentina suffered a great depression from 1998 - 2002, which caused widespread unemployment, riots, the fall of the government, and a default on the country's foreign debt. In terms of income, over 50% of Argentines were poor, and seven out of ten Argentine children were poor at the depth of the crisis in 2002.</p>
 <p>Let's analyze the effect of this crisis, and compare Argentina's immigration to that of it's neighbour Brazil. Let's do that using a <code>bubble plot</code> of immigration from Brazil and Argentina for the years 1980 - 2013. We will set the weights for the bubble as the <em>normalized</em> value of the population for each year.</p>
@@ -2330,7 +2330,7 @@ Outlier &gt; 209,611.5</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Area-Plots">Area Plots<a id="6" /><a class="anchor-link" href="#Area-Plots">&#182;</a></h1>
+<h1 id="2.7 Area-Plots">2.7 Area Plots<a id="6" /><a class="anchor-link" href="#2.7 Area-Plots">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -2545,7 +2545,7 @@ Outlier &gt; 209,611.5</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Histograms">Histograms<a id="8" /><a class="anchor-link" href="#Histograms">&#182;</a></h1><p>A histogram is a way of representing the <em>frequency</em> distribution of numeric dataset. The way it works is it partitions the x-axis into <em>bins</em>, assigns each data point in our dataset to a bin, and then counts the number of data points that have been assigned to each bin. So the y-axis is the frequency or the number of data points in each bin. Note that we can change the bin size and usually one needs to tweak it so that the distribution is displayed nicely.</p>
+<h1 id="2.8 Histograms">2.8 Histograms<a id="8" /><a class="anchor-link" href="#2.8 Histograms">&#182;</a></h1><p>A histogram is a way of representing the <em>frequency</em> distribution of numeric dataset. The way it works is it partitions the x-axis into <em>bins</em>, assigns each data point in our dataset to a bin, and then counts the number of data points that have been assigned to each bin. So the y-axis is the frequency or the number of data points in each bin. Note that we can change the bin size and usually one needs to tweak it so that the distribution is displayed nicely.</p>
 
 </div>
 </div>
@@ -2899,7 +2899,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Bar-Charts-(Dataframe)-">Bar Charts (Dataframe) <a id="10" /><a class="anchor-link" href="#Bar-Charts-(Dataframe)-">&#182;</a></h1><p>A bar plot is a way of representing data where the <em>length</em> of the bars represents the magnitude/size of the feature/variable. Bar graphs usually represent numerical and categorical variables grouped in intervals.</p>
+<h1 id="2.9 Bar-Charts-(Dataframe)-">2.9 Bar Charts (Dataframe) <a id="10" /><a class="anchor-link" href="#2.9 Bar-Charts-(Dataframe)-">&#182;</a></h1><p>A bar plot is a way of representing data where the <em>length</em> of the bars represents the magnitude/size of the feature/variable. Bar graphs usually represent numerical and categorical variables grouped in intervals.</p>
 <p>To create a bar plot, we can pass one of two arguments via <code>kind</code> parameter in <code>plot()</code>:</p>
 <ul>
 <li><code>kind=bar</code> creates a <em>vertical</em> bar plot</li>
@@ -3135,7 +3135,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Waffle-Charts-">Waffle Charts <a id="6" /><a class="anchor-link" href="#Waffle-Charts-">&#182;</a></h1><p>A <code>waffle chart</code> is an interesting visualization that is normally created to display progress toward goals. It is commonly an effective option when you are trying to add interesting visualization features to a visual that consists mainly of cells, such as an Excel dashboard.</p>
+<h1 id="2.10 Waffle-Charts-">2.10 Waffle Charts <a id="6" /><a class="anchor-link" href="#2.10 Waffle-Charts-">&#182;</a></h1><p>A <code>waffle chart</code> is an interesting visualization that is normally created to display progress toward goals. It is commonly an effective option when you are trying to add interesting visualization features to a visual that consists mainly of cells, such as an Excel dashboard.</p>
 
 </div>
 </div>
@@ -3629,7 +3629,15 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Word-Clouds-">Word Clouds <a id="8" /><a class="anchor-link" href="#Word-Clouds-">&#182;</a></h1><p><code>Word</code> clouds (also known as text clouds or tag clouds) work in a simple way: the more a specific word appears in a source of textual data (such as a speech, blog post, or database), the bigger and bolder it appears in the word cloud.</p>
+<h1 id="3. Visualizing-Data-using-word-cloud-">3. Visualizing Data using word cloud <em>pandas</em> <a id="0" /><a class="anchor-link" href="#3. Visualizing-Data-using-word-cloud-">&#182;</a></h1>
+</div>
+</div>
+</div>
+
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="3.1 Word-Clouds-">3.1 Word Clouds <a id="8" /><a class="anchor-link" href="#3.1 Word-Clouds-">&#182;</a></h2><p><code>Word</code> clouds (also known as text clouds or tag clouds) work in a simple way: the more a specific word appears in a source of textual data (such as a speech, blog post, or database), the bigger and bolder it appears in the word cloud.</p>
 
 </div>
 </div>
@@ -4064,7 +4072,14 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Regression-Plots-">Regression Plots <a id="10" /><a class="anchor-link" href="#Regression-Plots-">&#182;</a></h1><blockquote><p>Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. You can learn more about <em>seaborn</em> by following this <a href="https://seaborn.pydata.org/">link</a> and more about <em>seaborn</em> regression plots by following this <a href="http://seaborn.pydata.org/generated/seaborn.regplot.html">link</a>.</p>
+<h1 id="4. Visualizing-Data-using-Seaborn-">4. Visualizing Data using Seaborn <em>pandas</em> <a id="0" /><a class="anchor-link" href="#4. Visualizing-Data-using-Seaborn-">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="4.1 Regression-Plots-">4.1 Regression Plots <a id="10" /><a class="anchor-link" href="#4.1 Regression-Plots-">&#182;</a></h2><blockquote><p>Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. You can learn more about <em>seaborn</em> by following this <a href="https://seaborn.pydata.org/">link</a> and more about <em>seaborn</em> regression plots by following this <a href="http://seaborn.pydata.org/generated/seaborn.regplot.html">link</a>.</p>
 </blockquote>
 
 </div>
@@ -4407,7 +4422,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 align=Left><font size = 5>Generating Maps with Python</font></h1>
+<h1 align=Left><font size = 5>5. Generating Maps with Python</font></h1>
 </div>
 </div>
 </div>
@@ -4424,11 +4439,11 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><div class="alert alert-block alert-info" style="margin-top: 20px">
 
-1. Exploring Datasets with *p*andas <br>
-2. Downloading and Prepping Data <br>
-3. Introduction to Folium <br>
-4. Map with Markers <br>
-5. Choropleth Maps <br>
+5.1 Exploring Datasets with *p*andas <br>
+5.2 Downloading and Prepping Data <br>
+5.3 Introduction to Folium <br>
+5.4 Map with Markers <br>
+5.5 Choropleth Maps <br>
 </div>
 </div>
 </div>
@@ -4436,7 +4451,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exploring-Datasets-with-pandas-and-Matplotlib">Exploring Datasets with <em>pandas</em> and Matplotlib<a id="0" /><a class="anchor-link" href="#Exploring-Datasets-with-pandas-and-Matplotlib">&#182;</a></h1><p>Toolkits: This lab heavily relies on <a href="http://pandas.pydata.org/"><em>pandas</em></a> and <a href="http://www.numpy.org/"><strong>Numpy</strong></a> for data wrangling, analysis, and visualization. The primary plotting library we will explore in this lab is <a href="https://github.com/python-visualization/folium/"><strong>Folium</strong></a>.</p>
+<h2 id="5.1 Exploring-Datasets-with-pandas-and-Matplotlib">5.1 Exploring Datasets with <em>pandas</em> and Matplotlib<a id="0" /><a class="anchor-link" href="#5.1 Exploring-Datasets-with-pandas-and-Matplotlib">&#182;</a></h2><p>Toolkits: This lab heavily relies on <a href="http://pandas.pydata.org/"><em>pandas</em></a> and <a href="http://www.numpy.org/"><strong>Numpy</strong></a> for data wrangling, analysis, and visualization. The primary plotting library we will explore in this lab is <a href="https://github.com/python-visualization/folium/"><strong>Folium</strong></a>.</p>
 <p>Datasets:</p>
 <ol>
 <li><p>San Francisco Police Department Incidents for the year 2016 - <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incidents-Previous-Year-2016-/ritf-b9ki">Police Department Incidents</a> from San Francisco public data portal. Incidents derived from San Francisco Police Department (SFPD) Crime Incident Reporting system. Updated daily, showing data for the entire year of 2016. Address and location has been anonymized by moving to mid-block or to an intersection.</p>
@@ -4451,7 +4466,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Downloading-and-Prepping-Data-">Downloading and Prepping Data <a id="2" /><a class="anchor-link" href="#Downloading-and-Prepping-Data-">&#182;</a></h1>
+<h2 id="5.2 Downloading-and-Prepping-Data-">5.2 Downloading and Prepping Data <a id="2" /><a class="anchor-link" href="#5.2 Downloading-and-Prepping-Data-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -4480,7 +4495,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction-to-Folium-">Introduction to Folium <a id="4" /><a class="anchor-link" href="#Introduction-to-Folium-">&#182;</a></h1>
+<h2 id="5.3 Introduction-to-Folium-">5.3 Introduction to Folium <a id="4" /><a class="anchor-link" href="#5.3 Introduction-to-Folium-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -4814,7 +4829,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Maps-with-Markers-">Maps with Markers <a id="6" /><a class="anchor-link" href="#Maps-with-Markers-">&#182;</a></h1>
+<h2 id="5.4 Maps-with-Markers-">5.4 Maps with Markers <a id="6" /><a class="anchor-link" href="#5.4 Maps-with-Markers-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -5171,7 +5186,7 @@ For a full listing of colors available in Matplotlib, run the following code in 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="5.5 Choropleth-Maps-">Choropleth Maps <a id="8" /><a class="anchor-link" href="#Choropleth-Maps-">&#182;</a></h1><p>A <code>Choropleth</code> map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as population density or per-capita income. The choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region. Below is a <code>Choropleth</code> map of the US depicting the population by square mile per state.</p>
+<h2 id="5.5 Choropleth-Maps-">5.5 Choropleth Maps <a id="8" /><a class="anchor-link" href="#5.5 Choropleth-Maps-">&#182;</a></h2><p>A <code>Choropleth</code> map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as population density or per-capita income. The choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region. Below is a <code>Choropleth</code> map of the US depicting the population by square mile per state.</p>
 <p><img src = "https://ibm.box.com/shared/static/2kzaknzdf6crt3n5rx6haskg3wiaklxl.png" width = 600></p>
 
 </div>
