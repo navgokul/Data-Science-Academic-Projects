@@ -1,4 +1,5 @@
-<h1 id="Food-Recipes-Project">Food Recipes Project<a class="anchor-link" href="#Food-Recipes-Project">&#182;</a></h1>
+<h1 align=center><font size = 7>Data Science Methodology</font></h1>
+<h2 id="(Project-Food-Recipes-Project)">(Project-Food Recipes Project)<a class="anchor-link" href="#(Project-Food-Recipes-Project)">&#182;</a></h2>
 </div>
 </div>
 </div>
