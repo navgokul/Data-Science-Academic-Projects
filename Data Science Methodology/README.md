@@ -67,7 +67,7 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Business-Understanding-">Business Understanding <a id="0" /><a class="anchor-link" href="#Business-Understanding-">&#182;</a></h1>
+<h2 id="1. Business-Understanding-">1. Business Understanding <a id="0" /><a class="anchor-link" href="#1. Business-Understanding-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -187,7 +187,7 @@ Answer = Yes,<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Analytic-Approach-">Analytic Approach <a id="2" /><a class="anchor-link" href="#Analytic-Approach-">&#182;</a></h1>
+<h2 id="2. Analytic-Approach-">2. Analytic Approach <a id="2" /><a class="anchor-link" href="#2. Analytic-Approach-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -374,7 +374,7 @@ Answer = Yes,<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Requirements-">Data Requirements <a id="0" /><a class="anchor-link" href="#Data-Requirements-">&#182;</a></h1>
+<h2 id="3. Data-Requirements-">3. Data Requirements <a id="0" /><a class="anchor-link" href="#3. Data-Requirements-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -405,7 +405,7 @@ Answer = Yes,<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Collection-">Data Collection <a id="0" /><a class="anchor-link" href="#Data-Collection-">&#182;</a></h1>
+<h2 id="4. Data-Collection-">4. Data Collection <a id="0" /><a class="anchor-link" href="#4. Data-Collection-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -562,7 +562,7 @@ Answer = Yes,<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Understanding-">Data Understanding <a id="2" /><a class="anchor-link" href="#Data-Understanding-">&#182;</a></h1>
+<h2 id="5. Data-Understanding-">5. Data Understanding <a id="2" /><a class="anchor-link" href="#5. Data-Understanding-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -623,7 +623,7 @@ Answer = Yes,<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Preparation-">Data Preparation <a id="4" /><a class="anchor-link" href="#Data-Preparation-">&#182;</a></h1>
+<h2 id="6. Data-Preparation-">6. Data Preparation <a id="4" /><a class="anchor-link" href="#6. Data-Preparation-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -1074,7 +1074,7 @@ Answer =
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Modeling-">Data Modeling <a id="2" /><a class="anchor-link" href="#Data-Modeling-">&#182;</a></h1>
+<h2 id="7. Data-Modeling-">7. Data Modeling <a id="2" /><a class="anchor-link" href="#7. Data-Modeling-">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -1225,7 +1225,7 @@ Answer =
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Model-Evaluation-">Model Evaluation <a id="4" /><a class="anchor-link" href="#Model-Evaluation-">&#182;</a></h1>
+<h2 id="8. Model-Evaluation-">8. Model Evaluation <a id="4" /><a class="anchor-link" href="#8. Model-Evaluation-">&#182;</a></h2>
 </div>
 </div>
 </div>
