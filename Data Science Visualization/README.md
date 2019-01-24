@@ -3285,12 +3285,12 @@ For a full listing of colors available in Matplotlib, run the following code in 
     <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">height</span><span class="p">):</span>
         <span class="n">tile_index</span> <span class="o">+=</span> <span class="mi">1</span>
 
-        <span class="c1"># if the number of tiles populated for the current category is equal to its corresponding allocated tiles...</span>
+ <span class="c1"># if the number of tiles populated for the current category is equal to its corresponding allocated tiles...</span>
         <span class="k">if</span> <span class="n">tile_index</span> <span class="o">&gt;</span> <span class="nb">sum</span><span class="p">(</span><span class="n">tiles_per_category</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">category_index</span><span class="p">]):</span>
             <span class="c1"># ...proceed to the next category</span>
             <span class="n">category_index</span> <span class="o">+=</span> <span class="mi">1</span>       
             
-        <span class="c1"># set the class value to an integer, which increases with class</span>
+ <span class="c1"># set the class value to an integer, which increases with class</span>
         <span class="n">waffle_chart</span><span class="p">[</span><span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">]</span> <span class="o">=</span> <span class="n">category_index</span>
         
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Waffle chart populated!&#39;</span><span class="p">)</span>
@@ -3485,68 +3485,68 @@ For a full listing of colors available in Matplotlib, run the following code in 
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_waffle_chart</span><span class="p">(</span><span class="n">categories</span><span class="p">,</span> <span class="n">values</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">colormap</span><span class="p">,</span> <span class="n">value_sign</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">):</span>
 
-    <span class="c1"># compute the proportion of each category with respect to the total</span>
+   <span class="c1"># compute the proportion of each category with respect to the total</span>
     <span class="n">total_values</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
     <span class="n">category_proportions</span> <span class="o">=</span> <span class="p">[(</span><span class="nb">float</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">/</span> <span class="n">total_values</span><span class="p">)</span> <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">values</span><span class="p">]</span>
 
-    <span class="c1"># compute the total number of tiles</span>
+  <span class="c1"># compute the total number of tiles</span>
     <span class="n">total_num_tiles</span> <span class="o">=</span> <span class="n">width</span> <span class="o">*</span> <span class="n">height</span> <span class="c1"># total number of tiles</span>
     <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Total number of tiles is&#39;</span><span class="p">,</span> <span class="n">total_num_tiles</span><span class="p">)</span>
     
-    <span class="c1"># compute the number of tiles for each catagory</span>
+  <span class="c1"># compute the number of tiles for each catagory</span>
     <span class="n">tiles_per_category</span> <span class="o">=</span> <span class="p">[</span><span class="nb">round</span><span class="p">(</span><span class="n">proportion</span> <span class="o">*</span> <span class="n">total_num_tiles</span><span class="p">)</span> <span class="k">for</span> <span class="n">proportion</span> <span class="ow">in</span> <span class="n">category_proportions</span><span class="p">]</span>
 
-    <span class="c1"># print out number of tiles per category</span>
+  <span class="c1"># print out number of tiles per category</span>
     <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">tiles</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">tiles_per_category</span><span class="p">):</span>
         <span class="nb">print</span> <span class="p">(</span><span class="n">df_dsn</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">tiles</span><span class="p">))</span>
     
-    <span class="c1"># initialize the waffle chart as an empty matrix</span>
+  <span class="c1"># initialize the waffle chart as an empty matrix</span>
     <span class="n">waffle_chart</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">height</span><span class="p">,</span> <span class="n">width</span><span class="p">))</span>
 
-    <span class="c1"># define indices to loop through waffle chart</span>
+  <span class="c1"># define indices to loop through waffle chart</span>
     <span class="n">category_index</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">tile_index</span> <span class="o">=</span> <span class="mi">0</span>
 
-    <span class="c1"># populate the waffle chart</span>
+  <span class="c1"># populate the waffle chart</span>
     <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">width</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">height</span><span class="p">):</span>
             <span class="n">tile_index</span> <span class="o">+=</span> <span class="mi">1</span>
 
-            <span class="c1"># if the number of tiles populated for the current category </span>
+  <span class="c1"># if the number of tiles populated for the current category </span>
             <span class="c1"># is equal to its corresponding allocated tiles...</span>
             <span class="k">if</span> <span class="n">tile_index</span> <span class="o">&gt;</span> <span class="nb">sum</span><span class="p">(</span><span class="n">tiles_per_category</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">category_index</span><span class="p">]):</span>
                 <span class="c1"># ...proceed to the next category</span>
                 <span class="n">category_index</span> <span class="o">+=</span> <span class="mi">1</span>       
             
-            <span class="c1"># set the class value to an integer, which increases with class</span>
+   <span class="c1"># set the class value to an integer, which increases with class</span>
             <span class="n">waffle_chart</span><span class="p">[</span><span class="n">row</span><span class="p">,</span> <span class="n">col</span><span class="p">]</span> <span class="o">=</span> <span class="n">category_index</span>
     
-    <span class="c1"># instantiate a new figure object</span>
+ <span class="c1"># instantiate a new figure object</span>
     <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
 
-    <span class="c1"># use matshow to display the waffle chart</span>
+<span class="c1"># use matshow to display the waffle chart</span>
     <span class="n">colormap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">coolwarm</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">matshow</span><span class="p">(</span><span class="n">waffle_chart</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">colormap</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">()</span>
 
-    <span class="c1"># get the axis</span>
+<span class="c1"># get the axis</span>
     <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
 
-    <span class="c1"># set minor ticks</span>
+<span class="c1"># set minor ticks</span>
     <span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">,</span> <span class="p">(</span><span class="n">width</span><span class="p">),</span> <span class="mi">1</span><span class="p">),</span> <span class="n">minor</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     <span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-.</span><span class="mi">5</span><span class="p">,</span> <span class="p">(</span><span class="n">height</span><span class="p">),</span> <span class="mi">1</span><span class="p">),</span> <span class="n">minor</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
     
-    <span class="c1"># add dridlines based on minor ticks</span>
+<span class="c1"># add dridlines based on minor ticks</span>
     <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">which</span><span class="o">=</span><span class="s1">&#39;minor&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 
-    <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">([])</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">([])</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">yticks</span><span class="p">([])</span>
 
-    <span class="c1"># compute cumulative sum of individual categories to match color schemes between chart and legend</span>
+ <span class="c1"># compute cumulative sum of individual categories to match color schemes between chart and legend</span>
     <span class="n">values_cumsum</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
     <span class="n">total_values</span> <span class="o">=</span> <span class="n">values_cumsum</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">values_cumsum</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
 
-    <span class="c1"># create legend</span>
+  <span class="c1"># create legend</span>
     <span class="n">legend_handles</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">category</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">categories</span><span class="p">):</span>
         <span class="k">if</span> <span class="n">value_sign</span> <span class="o">==</span> <span class="s1">&#39;%&#39;</span><span class="p">:</span>
@@ -3554,9 +3554,9 @@ For a full listing of colors available in Matplotlib, run the following code in 
         <span class="k">else</span><span class="p">:</span>
             <span class="n">label_str</span> <span class="o">=</span> <span class="n">category</span> <span class="o">+</span> <span class="s1">&#39; (&#39;</span> <span class="o">+</span> <span class="n">value_sign</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">+</span> <span class="s1">&#39;)&#39;</span>
             
-        <span class="n">color_val</span> <span class="o">=</span> <span class="n">colormap</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">values_cumsum</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">/</span><span class="n">total_values</span><span class="p">)</span>
+  <span class="n">color_val</span> <span class="o">=</span> <span class="n">colormap</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">values_cumsum</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">/</span><span class="n">total_values</span><span class="p">)</span>
         
-    <span class="c1"># add legend to chart</span>
+<span class="c1"># add legend to chart</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span>
         <span class="n">handles</span><span class="o">=</span><span class="n">legend_handles</span><span class="p">,</span>
         <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;lower center&#39;</span><span class="p">,</span> 
