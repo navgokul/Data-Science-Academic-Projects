@@ -464,7 +464,6 @@ Some values in the table above show as "NaN", this is because those numbers are 
 <span class="n">df</span><span class="o">.</span><span class="n">info</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -599,7 +598,7 @@ to replace A by B</p>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>    
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -2358,7 +2357,6 @@ L/100km = 235 / mpg</p>
 <span class="o">%</span><span class="k">matplotlib</span> inline 
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5857,7 +5855,7 @@ In this case, we can also see that there is a big difference between the R-squar
     <span class="n">PollyPlot</span><span class="p">(</span><span class="n">x_train</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span><span class="n">x_test</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span><span class="n">y_train</span><span class="p">,</span><span class="n">y_test</span><span class="p">,</span><span class="n">poly</span><span class="p">,</span><span class="n">pr</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -5878,7 +5876,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">interact</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">order</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">test_data</span><span class="o">=</span><span class="p">(</span><span class="mf">0.05</span><span class="p">,</span><span class="mf">0.95</span><span class="p">,</span><span class="mf">0.05</span><span class="p">))</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5946,7 +5943,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">poly1</span><span class="o">=</span><span class="n">linear_model</span><span class="o">.</span><span class="n">LinearRegression</span><span class="p">()</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train_pr1</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
