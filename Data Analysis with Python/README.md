@@ -84,7 +84,6 @@ The Pandas Library is a useful tool that enables us to read various datasets int
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -113,7 +112,6 @@ You can also assign the dataset to any variable you create.</p>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -135,7 +133,6 @@ You can also assign the dataset to any variable you create.</p>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -155,7 +152,6 @@ You can also assign the dataset to any variable you create.</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -186,7 +182,6 @@ To better describe our data we can introduce a header, this information is avail
 <span class="n">headers</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -208,7 +203,6 @@ To better describe our data we can introduce a header, this information is avail
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -229,7 +223,6 @@ To better describe our data we can introduce a header, this information is avail
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;price&quot;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -257,7 +250,7 @@ To better describe our data we can introduce a header, this information is avail
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -359,7 +352,7 @@ The main types stored in Pandas dataframes are <code>object</code>, <code>float<
 <span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -392,7 +385,6 @@ These data types can be changed; we will learn how to accomplish this in a later
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -417,7 +409,7 @@ For example, the attribute "symboling" has 205 counts, the mean value of this co
 <span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">include</span> <span class="o">=</span> <span class="s2">&quot;all&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -447,7 +439,7 @@ Some values in the table above show as "NaN", this is because those numbers are 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;length&#39;</span><span class="p">,</span> <span class="s1">&#39;compression-ratio&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -548,7 +540,7 @@ to replace A by B</p>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -575,7 +567,7 @@ to replace A by B</p>
 <span class="n">missing_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -690,7 +682,7 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">avg_1</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;normalized-losses&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s2">&quot;float&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -710,7 +702,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;normalized-losses&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="n">avg_1</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -730,7 +721,7 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">avg_2</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;bore&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -750,7 +741,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;bore&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="n">avg_2</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -774,7 +764,7 @@ We have some freedom in choosing which method to replace data; however, some met
 <span class="n">df</span><span class="p">[</span><span class="s2">&quot;stroke&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="n">avg_3</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -794,7 +784,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">avg_4</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -814,7 +803,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="n">avg_4</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -834,7 +822,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">avg_5</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;peak-rpm&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;float&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -854,7 +841,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;peak-rpm&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="n">avg_5</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -875,7 +861,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;num-of-doors&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -896,7 +881,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;num-of-doors&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -918,7 +902,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <span class="n">df</span><span class="p">[</span><span class="s2">&quot;num-of-doors&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">,</span> <span class="s2">&quot;four&quot;</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -943,7 +926,7 @@ We have some freedom in choosing which method to replace data; however, some met
 <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -956,7 +939,7 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -995,7 +978,7 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1027,7 +1010,7 @@ We have some freedom in choosing which method to replace data; however, some met
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -1047,7 +1030,6 @@ We have some freedom in choosing which method to replace data; however, some met
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1093,7 +1075,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1110,7 +1092,6 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1137,7 +1118,7 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1165,7 +1146,6 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;width&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;width&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;width&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1188,7 +1168,7 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="p">[[</span><span class="s2">&quot;length&quot;</span><span class="p">,</span><span class="s2">&quot;width&quot;</span><span class="p">,</span><span class="s2">&quot;height&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -1234,7 +1214,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;horsepower&quot;</span><span class="p">]</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;horsepower&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span> <span class="n">copy</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -1255,7 +1235,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binwidth</span> <span class="o">=</span> <span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;horsepower&quot;</span><span class="p">])</span><span class="o">-</span><span class="nb">min</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;horsepower&quot;</span><span class="p">]))</span><span class="o">/</span><span class="mi">4</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1277,7 +1256,7 @@ L/100km = 235 / mpg</p>
 <span class="n">bins</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1298,7 +1277,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">group_names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">,</span> <span class="s1">&#39;Medium&#39;</span><span class="p">,</span> <span class="s1">&#39;High&#39;</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1320,7 +1299,6 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">,</span><span class="s1">&#39;horsepower-binned&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1361,7 +1339,7 @@ L/100km = 235 / mpg</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">pyplot</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;horsepower bins&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1392,7 +1370,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1414,7 +1391,7 @@ L/100km = 235 / mpg</p>
 <span class="n">dummy_variable_1</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -1436,7 +1413,7 @@ L/100km = 235 / mpg</p>
 <span class="n">dummy_variable_1</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1461,7 +1438,6 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;fuel-type&quot;</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1474,7 +1450,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1509,7 +1485,7 @@ L/100km = 235 / mpg</p>
 <span class="n">dummy_variable_2</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1533,7 +1509,6 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;aspiration&#39;</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1554,7 +1529,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;clean_df.csv&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1599,7 +1574,7 @@ L/100km = 235 / mpg</p>
 <span class="o">%</span><span class="k">matplotlib</span> inline 
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1621,7 +1596,7 @@ L/100km = 235 / mpg</p>
 <span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -1649,7 +1624,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1677,7 +1652,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;bore&#39;</span><span class="p">,</span> <span class="s1">&#39;stroke&#39;</span><span class="p">,</span> <span class="s1">&#39;compression-ratio&#39;</span><span class="p">,</span> <span class="s1">&#39;horsepower&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -1724,7 +1699,6 @@ L/100km = 235 / mpg</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1753,7 +1727,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s2">&quot;engine-size&quot;</span><span class="p">,</span> <span class="s2">&quot;price&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1781,7 +1754,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;highway-mpg&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;price&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -1810,7 +1783,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;highway-mpg&#39;</span><span class="p">,</span> <span class="s1">&#39;price&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1838,7 +1810,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;peak-rpm&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;price&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -1867,7 +1839,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;peak-rpm&#39;</span><span class="p">,</span><span class="s1">&#39;price&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1888,7 +1860,6 @@ L/100km = 235 / mpg</p>
 <span class="n">code</span><span class="p">:</span><span class="n">df</span><span class="p">[[</span><span class="s2">&quot;stroke&quot;</span><span class="p">,</span><span class="s2">&quot;price&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1909,7 +1880,7 @@ L/100km = 235 / mpg</p>
 <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;stroke&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;price&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1938,7 +1909,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;body-style&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;price&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -1959,7 +1930,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;engine-location&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;price&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -1989,7 +1959,6 @@ L/100km = 235 / mpg</p>
 <span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;drive-wheels&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;price&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2043,7 +2012,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2064,7 +2032,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;object&#39;</span><span class="p">])</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2092,7 +2059,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;drive-wheels&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2113,7 +2079,6 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;drive-wheels&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2136,7 +2101,7 @@ L/100km = 235 / mpg</p>
 <span class="n">drive_wheels_counts</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2158,7 +2123,7 @@ L/100km = 235 / mpg</p>
 <span class="n">drive_wheels_counts</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2183,7 +2148,7 @@ L/100km = 235 / mpg</p>
 <span class="n">engine_loc_counts</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -2220,7 +2185,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;drive-wheels&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -2249,7 +2214,7 @@ L/100km = 235 / mpg</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_group_one</span><span class="o">=</span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;drive-wheels&#39;</span><span class="p">,</span><span class="s1">&#39;body-style&#39;</span><span class="p">,</span><span class="s1">&#39;price&#39;</span><span class="p">]]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2273,7 +2238,7 @@ L/100km = 235 / mpg</p>
 <span class="n">df_group_one</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2305,7 +2270,7 @@ L/100km = 235 / mpg</p>
 <span class="n">grouped_test1</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2328,7 +2293,7 @@ L/100km = 235 / mpg</p>
 <span class="n">grouped_pivot</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2350,7 +2315,7 @@ L/100km = 235 / mpg</p>
 <span class="n">grouped_pivot</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -2372,7 +2337,6 @@ L/100km = 235 / mpg</p>
 <span class="n">df_group_two</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2425,7 +2389,7 @@ L/100km = 235 / mpg</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -2463,7 +2427,7 @@ The default labels convey no useful information to us. Let's change that:</p>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -2525,7 +2489,7 @@ The resulting coefficient is a value between -1 and 1 inclusive, where:</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2570,7 +2534,7 @@ What is this P-value? The P-value is the probability value that the correlation 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy</span> <span class="k">import</span> <span class="n">stats</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -2599,7 +2563,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>  
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2636,7 +2599,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>  
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2673,7 +2635,7 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>  
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2710,7 +2672,7 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span> <span class="p">)</span> 
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2747,7 +2709,7 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span> <span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>  
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -2784,7 +2746,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span> 
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2821,7 +2782,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span> <span class="p">)</span> 
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2858,7 +2818,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span><span class="p">)</span>  
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2887,7 +2846,7 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span> <span class="s2">&quot;The Pearson Correlation Coefficient is&quot;</span><span class="p">,</span> <span class="n">pearson_coef</span><span class="p">,</span> <span class="s2">&quot; with a P-value of P =&quot;</span><span class="p">,</span> <span class="n">p_value</span> <span class="p">)</span> 
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -2950,7 +2909,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="n">grouped_test2</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2971,7 +2929,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">grouped_test2</span><span class="o">.</span><span class="n">get_group</span><span class="p">(</span><span class="s1">&#39;4wd&#39;</span><span class="p">)[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -2995,7 +2952,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span> <span class="s2">&quot;ANOVA results: F=&quot;</span><span class="p">,</span> <span class="n">f_val</span><span class="p">,</span> <span class="s2">&quot;, P =&quot;</span><span class="p">,</span> <span class="n">p_val</span><span class="p">)</span>   
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3025,7 +2981,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span> <span class="s2">&quot;ANOVA results: F=&quot;</span><span class="p">,</span> <span class="n">f_val</span><span class="p">,</span> <span class="s2">&quot;, P =&quot;</span><span class="p">,</span> <span class="n">p_val</span> <span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3055,7 +3010,6 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span> <span class="s2">&quot;ANOVA results: F=&quot;</span><span class="p">,</span> <span class="n">f_val</span><span class="p">,</span> <span class="s2">&quot;, P =&quot;</span><span class="p">,</span> <span class="n">p_val</span><span class="p">)</span>   
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3077,7 +3031,7 @@ What is this P-value? The P-value is the probability value that the correlation 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;ANOVA results: F=&quot;</span><span class="p">,</span> <span class="n">f_val</span><span class="p">,</span> <span class="s2">&quot;, P =&quot;</span><span class="p">,</span> <span class="n">p_val</span><span class="p">)</span>   
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3213,7 +3167,7 @@ Yhat = a + b  X
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="k">import</span> <span class="n">LinearRegression</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3234,7 +3188,7 @@ Yhat = a + b  X
 <span class="n">lm</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3264,7 +3218,7 @@ Using simple linear regression, we will create a linear function with "highway-m
 <span class="n">Y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -3285,7 +3239,7 @@ Using simple linear regression, we will create a linear function with "highway-m
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lm</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3307,7 +3261,6 @@ Using simple linear regression, we will create a linear function with "highway-m
 <span class="n">Yhat</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>   
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3327,7 +3280,7 @@ Using simple linear regression, we will create a linear function with "highway-m
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lm</span><span class="o">.</span><span class="n">intercept_</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3347,7 +3300,7 @@ Using simple linear regression, we will create a linear function with "highway-m
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lm</span><span class="o">.</span><span class="n">coef_</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3409,7 +3362,7 @@ Yhat = a + b  X
 <span class="n">lm1</span> 
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -3431,7 +3384,6 @@ Yhat = a + b  X
 <span class="n">lm1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3458,7 +3410,7 @@ Yhat = a + b  X
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lm1</span><span class="o">.</span><span class="n">coef_</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -3478,7 +3430,7 @@ Yhat = a + b  X
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lm1</span><span class="o">.</span><span class="n">intercept_</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -3586,7 +3538,6 @@ Yhat = a + b_1 X_1 + b_2 X_2 + b_3 X_3 + b_4 X_4
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Z</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">,</span> <span class="s1">&#39;curb-weight&#39;</span><span class="p">,</span> <span class="s1">&#39;engine-size&#39;</span><span class="p">,</span> <span class="s1">&#39;highway-mpg&#39;</span><span class="p">]]</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3607,7 +3558,6 @@ Yhat = a + b_1 X_1 + b_2 X_2 + b_3 X_3 + b_4 X_4
 <div class=" highlight hl-ipython3"><pre><span></span> <span class="n">lm</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">Z</span><span class="p">,</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">])</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3628,7 +3578,6 @@ Yhat = a + b_1 X_1 + b_2 X_2 + b_3 X_3 + b_4 X_4
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lm</span><span class="o">.</span><span class="n">intercept_</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3649,7 +3598,6 @@ Yhat = a + b_1 X_1 + b_2 X_2 + b_3 X_3 + b_4 X_4
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lm</span><span class="o">.</span><span class="n">coef_</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3700,7 +3648,7 @@ Yhat = a + b_1 X_1 + b_2 X_2 + b_3 X_3 + b_4 X_4
 <span class="n">lm2</span><span class="o">.</span><span class="n">coef_</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3753,7 +3701,7 @@ Yhat = a + b_1 X_1 + b_2 X_2 + b_3 X_3 + b_4 X_4
 <span class="o">%</span><span class="k">matplotlib</span> inline 
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -3794,7 +3742,6 @@ Yhat = a + b_1 X_1 + b_2 X_2 + b_3 X_3 + b_4 X_4
 <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3818,7 +3765,6 @@ One thing to keep in mind when looking at a regression plot is to pay attention 
 <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3846,7 +3792,7 @@ One thing to keep in mind when looking at a regression plot is to pay attention 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s2">&quot;peak-rpm&quot;</span><span class="p">,</span><span class="s2">&quot;highway-mpg&quot;</span><span class="p">,</span><span class="s2">&quot;price&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -3880,7 +3826,6 @@ One thing to keep in mind when looking at a regression plot is to pay attention 
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3926,7 +3871,6 @@ One thing to keep in mind when looking at a regression plot is to pay attention 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Y_hat</span> <span class="o">=</span> <span class="n">lm</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">Z</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -3951,7 +3895,6 @@ One thing to keep in mind when looking at a regression plot is to pay attention 
 <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4023,21 +3966,21 @@ Y = a + b_1 X^2 +b_2 X^2 +b_3 X^3 ....\\
     <span class="n">x_new</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
     <span class="n">y_new</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">x_new</span><span class="p">)</span>
 
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">independent_variable</span><span class="p">,</span><span class="n">dependent_variabble</span><span class="p">,</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">x_new</span><span class="p">,</span> <span class="n">y_new</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Polynomial Fit with Matplotlib for Price ~ Length&#39;</span><span class="p">)</span>
-    <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">independent_variable</span><span class="p">,</span><span class="n">dependent_variabble</span><span class="p">,</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">x_new</span><span class="p">,</span> <span class="n">y_new</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">)</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Polynomial Fit with Matplotlib for Price ~ Length&#39;</span><span class="p">)</span>
+   <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
    
-    <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gcf</span><span class="p">()</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="n">Name</span><span class="p">)</span>
+   <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gcf</span><span class="p">()</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="n">Name</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Price of Cars&#39;</span><span class="p">)</span>
 
-    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4060,7 +4003,7 @@ Y = a + b_1 X^2 +b_2 X^2 +b_3 X^3 ....\\
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -4084,7 +4027,7 @@ Y = a + b_1 X^2 +b_2 X^2 +b_3 X^3 ....\\
 <span class="nb">print</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4105,7 +4048,7 @@ Y = a + b_1 X^2 +b_2 X^2 +b_3 X^3 ....\\
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">PlotPolly</span><span class="p">(</span><span class="n">p</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;highway-mpg&#39;</span><span class="p">])</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4118,7 +4061,7 @@ Y = a + b_1 X^2 +b_2 X^2 +b_3 X^3 ....\\
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">polyfit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4151,7 +4094,7 @@ Y = a + b_1 X^2 +b_2 X^2 +b_3 X^3 ....\\
 <span class="n">PlotPolly</span><span class="p">(</span><span class="n">p1</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span> <span class="s1">&#39;Length&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4189,7 +4132,6 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="k">import</span> <span class="n">PolynomialFeatures</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4211,7 +4153,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <span class="n">pr</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4224,7 +4166,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Z_pr</span><span class="o">=</span><span class="n">pr</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">Z</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4245,7 +4187,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Z</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4266,7 +4208,6 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Z_pr</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4295,7 +4236,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="k">import</span> <span class="n">StandardScaler</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4316,7 +4257,6 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Input</span><span class="o">=</span><span class="p">[(</span><span class="s1">&#39;scale&#39;</span><span class="p">,</span><span class="n">StandardScaler</span><span class="p">()),(</span><span class="s1">&#39;polynomial&#39;</span><span class="p">,</span> <span class="n">PolynomialFeatures</span><span class="p">(</span><span class="n">include_bias</span><span class="o">=</span><span class="kc">False</span><span class="p">)),(</span><span class="s1">&#39;model&#39;</span><span class="p">,</span><span class="n">LinearRegression</span><span class="p">())]</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4338,7 +4278,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <span class="n">pipe</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4359,7 +4299,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pipe</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">Z</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4381,7 +4321,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <span class="n">ypipe</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4408,7 +4348,7 @@ Yhat = a + b_1 X_1 +b_2 X_2 +b_3 X_1 X_2+b_4 X_1^2+b_5 X_2^2
 <span class="n">ypipe</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4462,7 +4402,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">lm</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -4500,7 +4440,6 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">Yhat</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4521,7 +4460,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">mean_squared_error</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -4543,7 +4482,6 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">],</span> <span class="n">Yhat</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4574,7 +4512,6 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">lm</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">Z</span><span class="p">,</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">])</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4611,7 +4548,6 @@ The value of the R-squared is the percentage of variation of the response variab
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Y_predict_multifit</span> <span class="o">=</span> <span class="n">lm</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">Z</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4632,7 +4568,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_squared_error</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">],</span> <span class="n">Y_predict_multifit</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+   
 </div>
 </div>
 
@@ -4668,7 +4604,6 @@ The value of the R-squared is the percentage of variation of the response variab
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">r2_score</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4690,7 +4625,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">r_squared</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -4726,7 +4661,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_squared_error</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">],</span> <span class="n">p</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4750,7 +4685,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="o">%</span><span class="k">matplotlib</span> inline 
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4771,7 +4706,6 @@ The value of the R-squared is the percentage of variation of the response variab
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">new_input</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4793,7 +4727,6 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">lm</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -4815,7 +4748,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">yhat</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4837,7 +4770,7 @@ The value of the R-squared is the percentage of variation of the response variab
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -4975,7 +4908,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">_get_numeric_data</span><span class="p">()</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5000,7 +4932,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5022,19 +4954,18 @@ In this case, we can also see that there is a big difference between the R-squar
     <span class="n">height</span> <span class="o">=</span> <span class="mi">10</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">))</span>
 
-    <span class="n">ax1</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">RedFunction</span><span class="p">,</span> <span class="n">hist</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">RedName</span><span class="p">)</span>
-    <span class="n">ax2</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">BlueFunction</span><span class="p">,</span> <span class="n">hist</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">BlueName</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
+   <span class="n">ax1</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">RedFunction</span><span class="p">,</span> <span class="n">hist</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">RedName</span><span class="p">)</span>
+   <span class="n">ax2</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">BlueFunction</span><span class="p">,</span> <span class="n">hist</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">BlueName</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax1</span><span class="p">)</span>
 
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">Title</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Price (in dollars)&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Proportion of Cars&#39;</span><span class="p">)</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">Title</span><span class="p">)</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Price (in dollars)&#39;</span><span class="p">)</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Proportion of Cars&#39;</span><span class="p">)</span>
 
-    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
     
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5050,27 +4981,27 @@ In this case, we can also see that there is a big difference between the R-squar
     <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">))</span>
     
     
-    <span class="c1">#training data </span>
-    <span class="c1">#testing data </span>
-    <span class="c1"># lr:  linear regression object </span>
-    <span class="c1">#poly_transform:  polynomial transformation object </span>
+   <span class="c1">#training data </span>
+   <span class="c1">#testing data </span>
+   <span class="c1"># lr:  linear regression object </span>
+   <span class="c1">#poly_transform:  polynomial transformation object </span>
  
-    <span class="n">xmax</span><span class="o">=</span><span class="nb">max</span><span class="p">([</span><span class="n">xtrain</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span><span class="n">xtest</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">max</span><span class="p">()])</span>
+  <span class="n">xmax</span><span class="o">=</span><span class="nb">max</span><span class="p">([</span><span class="n">xtrain</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span><span class="n">xtest</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">max</span><span class="p">()])</span>
 
-    <span class="n">xmin</span><span class="o">=</span><span class="nb">min</span><span class="p">([</span><span class="n">xtrain</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span><span class="n">xtest</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">min</span><span class="p">()])</span>
+   <span class="n">xmin</span><span class="o">=</span><span class="nb">min</span><span class="p">([</span><span class="n">xtrain</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span><span class="n">xtest</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">min</span><span class="p">()])</span>
 
-    <span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span><span class="n">xmax</span><span class="p">,</span><span class="mf">0.1</span><span class="p">)</span>
+  <span class="n">x</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span><span class="n">xmax</span><span class="p">,</span><span class="mf">0.1</span><span class="p">)</span>
 
 
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xtrain</span><span class="p">,</span><span class="n">y_train</span><span class="p">,</span><span class="s1">&#39;ro&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Training Data&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xtest</span><span class="p">,</span><span class="n">y_test</span><span class="p">,</span><span class="s1">&#39;go&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Test Data&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">lr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">poly_transform</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))),</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Predicted Function&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="o">-</span><span class="mi">10000</span><span class="p">,</span><span class="mi">60000</span><span class="p">])</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xtrain</span><span class="p">,</span><span class="n">y_train</span><span class="p">,</span><span class="s1">&#39;ro&#39;</span><span class="p">  </span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Training Data&#39;</span><span class="p">)</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xtest</span><span class="p">,</span><span class="n">y_test</span><span class="p">,</span><span class="s1">&#39;go&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Test Data&#39;</span><span class="p">)</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">lr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">poly_transform</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))),</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Predicted Function&#39;</span><span class="p">)</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="o">-</span><span class="mi">10000</span><span class="p">,</span><span class="mi">60000</span><span class="p">])</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Price&#39;</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+   <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -5092,7 +5023,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_data</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5113,7 +5043,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_data</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;price&#39;</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5141,7 +5071,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;number of training samples:&quot;</span><span class="p">,</span><span class="n">x_train</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5169,7 +5098,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">x_data</span><span class="p">,</span> <span class="n">y_data</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.40</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -5190,7 +5119,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="k">import</span> <span class="n">LinearRegression</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5211,7 +5139,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lre</span><span class="o">=</span><span class="n">LinearRegression</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5232,7 +5160,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lre</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span><span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -5253,7 +5181,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lre</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_test</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span><span class="n">y_test</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5274,7 +5201,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lre</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_train</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span><span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5296,7 +5222,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">lre</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_test1</span><span class="p">[[</span><span class="s2">&quot;horsepower&quot;</span><span class="p">]],</span> <span class="n">y_test1</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5333,7 +5258,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -5354,7 +5279,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Rcross</span><span class="o">=</span><span class="n">cross_val_score</span><span class="p">(</span><span class="n">lre</span><span class="p">,</span><span class="n">x_data</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span> <span class="n">y_data</span><span class="p">,</span><span class="n">cv</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -5375,7 +5300,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Rcross</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5396,7 +5321,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The mean of the folds are&quot;</span><span class="p">,</span> <span class="n">Rcross</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span><span class="s2">&quot;and the standard deviation is&quot;</span> <span class="p">,</span><span class="n">Rcross</span><span class="o">.</span><span class="n">std</span><span class="p">())</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -5417,7 +5342,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">cross_val_score</span><span class="p">(</span><span class="n">lre</span><span class="p">,</span><span class="n">x_data</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span> <span class="n">y_data</span><span class="p">,</span><span class="n">cv</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span><span class="n">scoring</span><span class="o">=</span><span class="s1">&#39;neg_mean_squared_error&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5438,7 +5363,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">Rcross2</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5459,7 +5384,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">cross_val_predict</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5481,7 +5405,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">yhat</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5512,7 +5435,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">lr</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">,</span> <span class="s1">&#39;curb-weight&#39;</span><span class="p">,</span> <span class="s1">&#39;engine-size&#39;</span><span class="p">,</span> <span class="s1">&#39;highway-mpg&#39;</span><span class="p">]],</span><span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5534,7 +5456,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">yhat_train</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5556,7 +5478,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">yhat_test</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5579,7 +5501,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 </pre></div>
 
-    </div>
+ 
 </div>
 </div>
 
@@ -5601,8 +5523,8 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">DistributionPlot</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span><span class="n">yhat_train</span><span class="p">,</span><span class="s2">&quot;Actual Values (Train)&quot;</span><span class="p">,</span><span class="s2">&quot;Predicted Values (Train)&quot;</span><span class="p">,</span><span class="n">Title</span><span class="p">)</span>
 </pre></div>
 
-    </div>
-</div>
+    
+</di>v>
 </div>
 
 </div>
@@ -5631,7 +5553,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">DistributionPlot</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">yhat_test</span><span class="p">,</span><span class="s2">&quot;Actual Values (Test)&quot;</span><span class="p">,</span><span class="s2">&quot;Predicted Values (Test)&quot;</span><span class="p">,</span><span class="n">Title</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -5661,7 +5583,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5691,7 +5612,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done&quot;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -5715,7 +5636,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">pr</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -5737,7 +5658,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">poly</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train_pr</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5759,7 +5679,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">yhat</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5781,7 +5700,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;True values:&quot;</span><span class="p">,</span><span class="n">y_test</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5802,7 +5720,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">PollyPlot</span><span class="p">(</span><span class="n">x_train</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span><span class="n">x_test</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]],</span><span class="n">y_train</span><span class="p">,</span><span class="n">y_test</span><span class="p">,</span><span class="n">poly</span><span class="p">,</span><span class="n">pr</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5839,7 +5756,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">poly</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_train_pr</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5860,7 +5776,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">poly</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_test_pr</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5892,13 +5807,13 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">order</span><span class="p">:</span>
     <span class="n">pr</span><span class="o">=</span><span class="n">PolynomialFeatures</span><span class="p">(</span><span class="n">degree</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
     
-    <span class="n">x_train_pr</span><span class="o">=</span><span class="n">pr</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x_train</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]])</span>
+   <span class="n">x_train_pr</span><span class="o">=</span><span class="n">pr</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x_train</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]])</span>
     
-    <span class="n">x_test_pr</span><span class="o">=</span><span class="n">pr</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x_test</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]])</span>    
+   <span class="n">x_test_pr</span><span class="o">=</span><span class="n">pr</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x_test</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">]])</span>    
     
-    <span class="n">lr</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train_pr</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
+  <span class="n">lr</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train_pr</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
     
-    <span class="n">Rsqu_test</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">lr</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_test_pr</span><span class="p">,</span><span class="n">y_test</span><span class="p">))</span>
+   <span class="n">Rsqu_test</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">lr</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">x_test_pr</span><span class="p">,</span><span class="n">y_test</span><span class="p">))</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">order</span><span class="p">,</span><span class="n">Rsqu_test</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;order&#39;</span><span class="p">)</span>
@@ -5907,7 +5822,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">,</span> <span class="s1">&#39;Maximum R^2 &#39;</span><span class="p">)</span>    
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -5984,7 +5898,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pr1</span><span class="o">=</span><span class="n">PolynomialFeatures</span><span class="p">(</span><span class="n">degree</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+
 </div>
 </div>
 
@@ -6005,7 +5919,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">x_test_pr1</span><span class="o">=</span><span class="n">pr</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x_test</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">,</span> <span class="s1">&#39;curb-weight&#39;</span><span class="p">,</span> <span class="s1">&#39;engine-size&#39;</span><span class="p">,</span> <span class="s1">&#39;highway-mpg&#39;</span><span class="p">]])</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -6055,7 +5968,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">DistributionPlot</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">yhat_test1</span><span class="p">,</span><span class="s2">&quot;Actual Values (Test)&quot;</span><span class="p">,</span><span class="s2">&quot;Predicted Values (Test)&quot;</span><span class="p">,</span><span class="n">Title</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -6109,7 +6021,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <span class="n">x_test_pr</span><span class="o">=</span><span class="n">pr</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x_test</span><span class="p">[[</span><span class="s1">&#39;horsepower&#39;</span><span class="p">,</span> <span class="s1">&#39;curb-weight&#39;</span><span class="p">,</span> <span class="s1">&#39;engine-size&#39;</span><span class="p">,</span> <span class="s1">&#39;highway-mpg&#39;</span><span class="p">,</span><span class="s1">&#39;normalized-losses&#39;</span><span class="p">,</span><span class="s1">&#39;symboling&#39;</span><span class="p">]])</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
@@ -6130,7 +6042,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="k">import</span> <span class="n">Ridge</span>
 </pre></div>
 
-    </div>
+  
 </div>
 </div>
 
@@ -6151,7 +6063,6 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">RigeModel</span><span class="o">=</span><span class="n">Ridge</span><span class="p">(</span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
 
@@ -6172,7 +6083,7 @@ In this case, we can also see that there is a big difference between the R-squar
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">RigeModel</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train_pr</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+    
 </div>
 </div>
 
