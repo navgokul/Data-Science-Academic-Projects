@@ -5,7 +5,7 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="(Project-Automobile-Dataset)">(Project-Automobile Dataset)<a class="anchor-link" href="#(Project-Automobile-Dataset)">&#182;</a></h1>
+<h1 id="(Project-Car Price Preditor)">(Project-Car Price Preditor)<a class="anchor-link" href="#(Project-Car Price Preditor)">&#182;</a></h1>
 </div>
 </div>
 </div>
