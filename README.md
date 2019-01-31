@@ -1,11 +1,11 @@
 # Data-Science-Academic-Projects
-Projects done by me as a part of IBM's Congnitiveclass.ai "Applied Data Science with Python " Learning Path.
+**Projects done by me as a part of IBM's Congnitiveclass.ai "Applied Data Science with Python " Learning Path.**
 
-## Project 1 - Food Recipes Project
+### Project 1 - Food Recipes Project
 Jupyter notebooks labs <a href="Data Science Methodology">Here</a>
-## Project 2 - Immigration to Canada from 1980 to 2013
+### Project 2 - Immigration to Canada from 1980 to 2013
 Jupyter notebooks labs <a href="Data Visualization with Python">Here</a>
-## Project 3 - Used Car Price Prediction (Automobile Dataset)
+### Project 3 - Used Car Price Prediction (Automobile Dataset)
 Jupyter notebooks labs <a href="./Data Analysis with Python">Here</a>
 
 ## Python packages used
