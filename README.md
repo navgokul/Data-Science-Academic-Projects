@@ -4,7 +4,7 @@
 ### Project 1 - Food Recipes Project
 Jupyter notebooks labs <a href="Data Science Methodology">Here</a>
 ### Project 2 - Immigration to Canada from 1980 to 2013
-Jupyter notebooks labs <a href="Data Visualization with Python">Here</a>
+Jupyter notebooks labs <a href="Data Science Visualization">Here</a>
 ### Project 3 - Used Car Price Prediction (Automobile Dataset)
 Jupyter notebooks labs <a href="./Data Analysis with Python">Here</a>
 
