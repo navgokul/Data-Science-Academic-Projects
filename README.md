@@ -23,13 +23,3 @@ Jupyter notebooks labs <a href="./Data Analysis with Python">Here</a>
 - Scikit-lean (Machine learning: regression, classifcation...)
 - Statsmodels (data exploration, statistical models & statistical tests) 
 
-
-**Certificates**
--  Python 101 https://courses.cognitiveclass.ai/certificates/00653f64a62644c9832965e9304f3a18
--  Introduction to Data Science https://courses.cognitiveclass.ai/certificates/5c535e1e07984bdcbe65d3240ddf1db9
--  Data Science Hands-On with Open Source Tools https://courses.cognitiveclass.ai/certificates/4070a85541404dd4bbc8b0a88929d52f
--  Data Science Methodology https://courses.cognitiveclass.ai/certificates/b402540f610742f3a75ffb79a2c45185
--  Python 101 for Data Science https://courses.cognitiveclass.ai/certificates/722c677f11c144cd9bae604525c26798
--  SQL and Relational Databases https://courses.cognitiveclass.ai/certificates/20929c641228489e83d36c5d588bed71
--  Data Visualization with Python https://courses.cognitiveclass.ai/certificates/6a1b256fecd149eca9c375c9a4f4ae68
--  Data Analysis with Python   https://courses.cognitiveclass.ai/certificates/c64d2dc6f8e147a698b30d1c923fb8a4
